@@ -12,6 +12,8 @@ and I2C connections and the bus works in principle at certain
 speeds and pull-up resistor values. Or for simply verifying the address
 of a certain I2C device.
 
+See also [my I2C blog post](https://gms.tf/i2c-scanner.html) for an extended discussion.
+
 ## Build Instructions
 
 The simplest way to build and upload a program is to use
@@ -91,6 +93,7 @@ program from scratch.
 
 - Wolfgang Ewald's [I2C scanner](https://wolles-elektronikkiste.de/en/i2c-scanner) that uses the Arduino `Wire.h` API (2020)
 - Nick Gammon's [I2C scanner](http://www.gammon.com.au/i2c#reply6) that also uses Arduino's `Wire.h` API (2011)
+- Andreas Müller's [I2C C++ class](https://github.com/MuellerA/LonganNanoTest/tree/master/I2c/src) for the Longan Nano and an example for interfacing with an LCD
 
 [i2c]: https://en.wikipedia.org/wiki/I%C2%B2C
 [alibc]: https://www.nongnu.org/avr-libc/user-manual/modules.html
